@@ -1,0 +1,25 @@
+﻿<Window x:Class="ese1_wpf11_11_19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ese1_wpf11_11_19"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="*0.1" HorizontalAlignment="Left" Margin="212,87,0,0" VerticalAlignment="Top" Width="75" Height="46" Click="Button_Click_Moltiplicazione1"/>
+        <Button Content="*0.01" HorizontalAlignment="Left" Height="46" Margin="322,87,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_Moltiplicazione2"/>
+        <Button Content="*0.001" HorizontalAlignment="Left" Height="46" Margin="444,87,0,0" VerticalAlignment="Top" Width="102" Click="Button_Click_Moltiplicazione3"/>
+        <Button Content="-1" HorizontalAlignment="Left" Margin="212,171,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="Button_Click_Sottrazione1"/>
+        <Button Content="-0.1" HorizontalAlignment="Left" Height="48" Margin="117,171,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_Sottrazione2"/>
+        <Button Content="-0.01" HorizontalAlignment="Left" Height="48" Margin="10,171,0,0" VerticalAlignment="Top" Width="78" Click="Button_Click_Sottrazione3"/>
+        <Button Content="/0.1" HorizontalAlignment="Left" Height="52" Margin="212,265,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Divisione1"/>
+        <Button Content="/0.01" HorizontalAlignment="Left" Height="52" Margin="322,265,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_Divisone2"/>
+        <Button Content="/0.001" HorizontalAlignment="Left" Height="52" Margin="466,265,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_Divisione3"/>
+        <Button Content="+1" HorizontalAlignment="Left" Height="48" Margin="466,171,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_Somma1"/>
+        <Button Content="+0.1" HorizontalAlignment="Left" Height="48" Margin="576,171,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_Somma2"/>
+        <Button Content="+0.01" HorizontalAlignment="Left" Height="48" Margin="693,171,0,0" VerticalAlignment="Top" Width="89" Click="Button_Click_Somma3"/>
+        <TextBox x:Name="txtNumero" HorizontalAlignment="Left" Height="66" Margin="322,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+
+    </Grid>
+</Window>
