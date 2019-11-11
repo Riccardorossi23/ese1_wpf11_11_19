@@ -89,7 +89,7 @@ namespace ese1_wpf11_11_19
             txtNumero.Text = r.ToString();
         }
 
-        private void Button_Click_Somma1(object sender, RoutedEventArgs e)
+        private void Button_Click_somma1(object sender, RoutedEventArgs e)
         {
             double d = double.Parse(txtNumero.Text);
             double r = d +1;

@@ -16,7 +16,7 @@
         <Button Content="/0.1" HorizontalAlignment="Left" Height="52" Margin="212,265,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Divisione1"/>
         <Button Content="/0.01" HorizontalAlignment="Left" Height="52" Margin="322,265,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_Divisone2"/>
         <Button Content="/0.001" HorizontalAlignment="Left" Height="52" Margin="466,265,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_Divisione3"/>
-        <Button Content="+1" HorizontalAlignment="Left" Height="48" Margin="466,171,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_Somma1"/>
+        <Button Content="+1" HorizontalAlignment="Left" Height="48" Margin="466,171,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_somma1"/>
         <Button Content="+0.1" HorizontalAlignment="Left" Height="48" Margin="576,171,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_Somma2"/>
         <Button Content="+0.01" HorizontalAlignment="Left" Height="48" Margin="693,171,0,0" VerticalAlignment="Top" Width="89" Click="Button_Click_Somma3"/>
         <TextBox x:Name="txtNumero" HorizontalAlignment="Left" Height="66" Margin="322,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
